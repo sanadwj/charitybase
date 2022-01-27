@@ -30,6 +30,6 @@ Gem::Specification.new do |spec|
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 
-  spec.add_dependency "faraday", "~> 1.0.0"
-  spec.add_dependency "faraday_middleware"
+  spec.add_dependency "faraday", "~> 0.13.0"
+  spec.add_dependency "faraday_middleware", "~> 0.11.0"
 end
