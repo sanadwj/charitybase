@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Charity base Graphql wrapper."
   spec.description = "Charity base Graphql wrapper, to find and list all charities."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/sanadwj/charitybase"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
