@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     charity_base (0.1.0)
-      faraday (~> 1.7)
-      faraday_middleware (~> 1.1)
+      faraday
+      faraday_middleware
 
 GEM
   remote: https://rubygems.org/
