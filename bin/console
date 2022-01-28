@@ -10,6 +10,6 @@ require "charity_base"
 # (If you use this, don't forget to add pry to your Gemfile!)
 # require "pry"
 # Pry.start
-client = CharityBase::Client.new(api_key: "fcdb5b1f-65cd-4900-b4a8-5f64042c108f")
+
 require "irb"
 IRB.start(__FILE__)
