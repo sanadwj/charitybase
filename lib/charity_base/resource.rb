@@ -1,12 +1,13 @@
 module CharityBase
   class Resource
     attr_reader :client
+
     def initialize(client)
       @client = client
     end
 
     def post_request(url, body, headers: {})
-      client.connection.post(url, body, headers)
+      handle_response client.connection.post(url, body, headers)
     end
 
     def default_header
