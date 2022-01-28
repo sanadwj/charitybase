@@ -9,20 +9,18 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'charity_base'
+gem 'charity_base', git: 'https://github.com/sanadwj/charitybase', branch: main
 ```
 
 And then execute:
 
     $ bundle install
 
-Or install it yourself as:
 
-    $ gem install charity_base
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: To be updated.
 
 ## Development
 

@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    charity_base (0.1.0)
+      faraday (~> 0.13.0)
+      faraday_middleware (~> 0.11.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.13.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.11.0.1)
+      faraday (>= 0.7.4, < 1.0)
+    minitest (5.15.0)
+    multipart-post (2.1.1)
+    rake (13.0.6)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  charity_base!
+  minitest (~> 5.0)
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.3.3
